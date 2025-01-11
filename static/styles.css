@@ -1,0 +1,141 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff4e6; /* Amarelo claro */
+    color: #2c2c2c;
+}
+
+/* Navbar */
+nav {
+    background-color: #ff4500; /* Vermelho vibrante */
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Tela inicial */
+.inicio-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.inicio-container button {
+    background-color: #ffcc00; /* Amarelo vibrante */
+    color: #2c2c2c;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.inicio-container button:hover {
+    background-color: #ffaa00; /* Tom mais forte de amarelo */
+    transform: scale(1.05);
+}
+
+/* Fazer pedido */
+.pedido-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe4b5; /* Amarelo suave */
+}
+
+.form-pedido {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-pedido h1 {
+    text-align: center;
+    color: #ff4500; /* Vermelho */
+    margin-bottom: 20px;
+}
+
+.form-pedido label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}
+
+.form-pedido input, .form-pedido select, .form-pedido textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-pedido button {
+    background-color: #ff4500; /* Vermelho */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.form-pedido button:hover {
+    background-color: #ff6347; /* Tom mais claro de vermelho */
+    transform: scale(1.05);
+}
+
+/* Página de confirmação */
+.confirmacao-container {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.confirmacao-container h1 {
+    color: #ff4500; /* Vermelho */
+    margin-bottom: 20px;
+}
+
+.confirmacao-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.confirmacao-container button {
+    background-color: #ffcc00; /* Amarelo vibrante */
+    color: #2c2c2c;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.confirmacao-container button:hover {
+    background-color: #ffaa00;
+    transform: scale(1.05);
+}

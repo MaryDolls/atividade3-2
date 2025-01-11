@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Obrigado pelo seu pedido!</h1>
+<p>Sua pizza com:</p>
+<ul>
+    <li>Massa: {{ massa }}</li>
+    <li>Molho: {{ molho }}</li>
+    <li>Ingrediente 1: {{ ingrediente1 }}</li>
+    <li>Ingrediente 2: {{ ingrediente2 }}</li>
+    <li>Ingrediente 3: {{ ingrediente3 }}</li>
+    <li>Ingrediente 4: {{ ingrediente4 }}</li>
+    <li>Borda: {{ borda }}</li>
+</ul>
+<p>Será entregue no endereço: {{ endereco }} em aproximadamente 40 minutos!</p>
+<a href="{{ url_for('inicio') }}"><button>Voltar ao Início</button></a>
+{% endblock %}

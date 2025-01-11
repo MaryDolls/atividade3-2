@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Monte sua pizza</h1>
+<form method="POST">
+    <label>Tipo de Massa:</label>
+    <select name="massa">
+        <option value="Massa normal">Massa normal</option>
+        <option value="Massa com queijo">Massa com queijo</option>
+        <option value="Massa com carvão">Massa com carvão</option>
+    </select><br>
+    
+    <label>Molho:</label>
+    <select name="molho">
+        <option value="Molho de tomate">Molho de tomate</option>
+        <option value="Molho branco">Molho branco</option>
+        <option value="Sem molho">Sem molho</option>
+    </select><br>
+    
+    <label>Ingrediente 1:</label>
+    <select name="ingrediente1">
+        <option value="Queijo mussarela">Queijo mussarela</option>
+        <option value="Queijo prato">Queijo prato</option>
+        <option value="Queijo cheddar">Queijo cheddar</option>
+    </select><br>
+    
+    <label>Ingrediente 2:</label>
+    <select name="ingrediente2">
+        <option value="Calabresa">Calabresa</option>
+        <option value="Peperoni">Peperoni</option>
+        <option value="Lombinho suíno">Lombinho suíno</option>
+    </select><br>
+    
+    <label>Ingrediente 3:</label>
+    <select name="ingrediente3">
+        <option value="Catupiry">Catupiry</option>
+        <option value="Requeijão">Requeijão</option>
+        <option value="Ricota">Ricota</option>
+    </select><br>
+    
+    <label>Ingrediente 4:</label>
+    <select name="ingrediente4">
+        <option value="Frango desfiado">Frango desfiado</option>
+        <option value="Bacon">Bacon</option>
+    </select><br>
+    
+    <label>Borda recheada:</label>
+    <select name="borda">
+        <option value="Cheddar">Cheddar</option>
+        <option value="Catupiry">Catupiry</option>
+        <option value="Sem recheio">Sem recheio</option>
+    </select><br>
+    
+    <label>Endereço:</label>
+    <input type="text" name="endereco" required><br>
+    
+    <button type="submit">Confirmar Pedido</button>
+</form>
+{% endblock %}
